@@ -1,10 +1,36 @@
+
+
+
+:root{
+--cor-principal:
+--cor-secundaria:
+}
+
+
 *{
  margin:0;
  padding:0;
 
 }
 .principal{
+
  background-image: url;
 background-size:content
-background-repeat }
+background-repeat:no-repeat;
+text-align:center;
+align-items:center;
+
+}
+.container{
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+.container--botao{
+   background-color: var(--botao-destaque);
+   color:var()
+   border-style: dotted;
+
+}
+
 

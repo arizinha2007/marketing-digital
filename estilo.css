@@ -4,6 +4,8 @@
 :root{
 --cor-principal:
 --cor-secundaria:
+--botao-destaque:
+--cor-de-fundo:
 }
 
 
@@ -14,20 +16,22 @@
 }
 .principal{
 
- background-image: url;
-background-size:content
+ background-color: ;
+   background-image: url;
+background-size:content;
 background-repeat:no-repeat;
 text-align:center;
-align-items:center;
+font-size: 23px;
 
 }
 .container{
    height: 100vh;
    display: grid;
    grid-template-columns: 50% 50%;
+   color:var(--cor-principal)
 }
 .container--botao{
-   background-color: var(--botao-destaque);
+   background-color: var()
    color:var()
    border-style: dotted;
 
